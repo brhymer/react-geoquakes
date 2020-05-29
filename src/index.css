@@ -3,7 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
+.mappy {
+  height: 100%;
+  width: 100%;
+}
+.card {
+  height: 200px;
+  width: 200px;
+}
 .app {
   display: flex;
   flex-direction: row;
@@ -12,8 +19,8 @@ body {
 
 .mapContainer {
   width: 40%;
-  padding-top: 2em; 
-  padding-left: 2em;
+  /* padding-top: 2em; 
+  padding-left: 2em; */
   background-color: lightblue;
 }
 

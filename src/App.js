@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import MapContainer from './Map';
+// import Quakes from './Quakes';
+import QuakesContainer from './QuakesContainer';
 
 class App extends Component {
 
@@ -7,11 +10,11 @@ class App extends Component {
     return (
       <div className="app">
         <div className="mapContainer">
-          ...put Map Component here...
+          <MapContainer />
         </div>
         <div className="quakeContainer">
           <h1>Earthquakes from the past week: </h1>
-          ...put Quakes Component here...
+          <QuakesContainer />
         </div>
       </div>
     );
